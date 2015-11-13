@@ -2,17 +2,20 @@
   "name": "blync",
   "version": "1.0.0",
   "description": "Blynclight module for Node.js using node-hid.",
-  "main": "lib/blync.js",
+  "main": "index.js",
   "dependencies": {
-    "node-hid": "*"
+    "node-hid": ">=0.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/justmoon/node-blync.git"
+    "url": "git://github.com/christopheranderson/node-blync.git"
   },
   "keywords": [
     "blync",
@@ -25,7 +28,7 @@
   "author": "Stefan Thomas <justmoon@members.fsf.org>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/justmoon/node-blync/issues"
+    "url": "https://github.com/christopheranderson/node-blync/issues"
   },
-  "homepage": "https://github.com/justmoon/node-blync"
+  "homepage": "https://github.com/christopheranderson/node-blync"
 }
